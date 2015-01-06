@@ -6,7 +6,7 @@ Description
 
 Some are prebuild at https://registry.hub.docker.com/repos/dveeden/
 
-## Detail
+## Detail http://dev.mysql.com/doc/refman/5.6/en/mysql-cluster-installation.html
 
 To get more familiar with docker and to create a test setup for MySQL Cluster I created docker images for the various components of MySQL Cluster (a.k.a. NDB Cluster)
 
