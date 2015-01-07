@@ -46,7 +46,7 @@ The API node (mysqld) image:
 The management client (ndb_mgm) image:
 * Runs ndb_mgm as entrypoint
 * Should be started with "--link mymgm01:mgm01" to allow it to connect to the management node.
-* Running the ndb_mgm in a container removes the need to publish port 1186 on the management server. More info here.
+* Running the ndb_mgm in a container removes the need to publish port 1186 on the management server. More info [here](http://dev.mysql.com/doc/refman/5.6/en/mysql-cluster-security-networking-issues.html).
 * You can override the entrypoint to run other NDB utilities like ndb_desc or ndb_select_all
 
 The images can be found on https://registry.hub.docker.com/u/dveeden/mysqlcluster72/
