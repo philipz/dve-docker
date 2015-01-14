@@ -1,5 +1,5 @@
-FROM dveeden/mysqlcluster72:base
-MAINTAINER Daniël van Eeden <docker@myname.nl>
+FROM philipz/mysqlcluster73:base
+MAINTAINER Philipz <philipzheng@gmail.com>
 
 RUN mkdir -p /usr/local/mysql/mysql-cluster
 RUN mkdir -p /var/lib/mysql-cluster
