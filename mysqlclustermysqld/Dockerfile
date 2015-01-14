@@ -1,6 +1,7 @@
 FROM philipz/mysqlcluster73:base
 MAINTAINER Philipz <philipzheng@gmail.com>
 
+RUN yum -y install perl
 RUN cd /opt/mysql; ./scripts/mysql_install_db --user=mysql --datadir=/usr/local/mysql/data
 ADD my.cnf /etc/
 EXPOSE 3306
