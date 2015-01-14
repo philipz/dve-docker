@@ -1,5 +1,5 @@
-FROM dveeden/mysqlcluster72:base
-MAINTAINER Daniël van Eeden <docker@myname.nl>
+FROM philipz/mysqlcluster73:base
+MAINTAINER Philipz <philipzheng@gmail.com>
 
 RUN cd /opt/mysql; ./scripts/mysql_install_db --user=mysql --datadir=/usr/local/mysql/data
 ADD my.cnf /etc/
